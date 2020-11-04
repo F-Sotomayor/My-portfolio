@@ -2,64 +2,68 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Facundo Sotomayor',
+  lang: 'en',
+  description: 'Welcome to my portfolio',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, my name is',
+  name: 'Facundo',
+  subtitle: `I'm a Frontend Developer`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.png',
+  paragraphOne: `My name is Facundo Sotomayor, i'm 25 years old and i'm currently living on Buenos Aires, Argentina.`,
+  paragraphTwo: `I've started coding almost one year ago, a friend of mine introduced me to it and guided me through the whole learning curve.`,
+  paragraphThree:
+    'If you are looking for a passionate developer and someone willing to grow and learn, check out my resume down below!',
+  resume: 'https://www.docdroid.net/hmyBtyo/cv-en-pdf#page=2', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.jpg',
+    title: 'Google Map customized with React',
+    info:
+      'This app has firebase integrated so whenever you interact with the map you dont lose any valuable data.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://reactgooglemap.surge.sh/',
+    repo: 'https://github.com/F-Sotomayor/MapReact', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.png',
+    title: 'React DrumKit',
+    info:
+      'I had a lot of fun creating this, i extracted the idea from javascript30.com. You basically press a key and you play a drum sound.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://drumsjs.surge.sh/',
+    repo: 'https://github.com/F-Sotomayor/React-Drums', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.jpg',
+    title: 'Guess the Pokemon!',
+    info:
+      'I havent finished this project because i learnt what i wanted from it. I used it to learn axios and how to deal with async and await; thats the reason why its not mobile friendly.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://guesspokemon.surge.sh/',
+    repo: 'https://github.com/F-Sotomayor/Whos-that-pokemon-', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me?',
+  btn: 'Lets Talk!',
+  email: 'facundosotomayor95@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +71,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/facundo-sotomayor-a1246016a/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/F-Sotomayor',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
