@@ -9,7 +9,7 @@ const GithubButton = () => (
       data-icon="octicon-repo-forked"
       data-size="large"
       data-show-count="true"
-      aria-label="Fork cobidev/gatsby-simplefolio on GitHub"
+      aria-label="Fork this portfolio on GitHub"
     >
       Fork
     </GitHubButton>

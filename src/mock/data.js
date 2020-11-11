@@ -57,6 +57,16 @@ export const projectsData = [
     url: 'http://guesspokemon.surge.sh/',
     repo: 'https://github.com/F-Sotomayor/Whos-that-pokemon-', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Pokedex with React and Chakra UI',
+    info:
+      'This app is meant to be only mobile, so if you open it on Desktop it will look super bad. This proyect was inspired in a challenge from an organization called DevOff, and the design of the app was inspired by Sapuel Nahwan',
+    info2: '',
+    url: 'https://pokedexchallenge.netlify.app/',
+    repo: 'https://github.com/F-Sotomayor/Pokedex-with-Chakra', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
